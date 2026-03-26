@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="storm" x1="20" y1="18" x2="104" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fde68a"/>
+      <stop offset="0.45" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#7c2d12"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="#070707"/>
+  <path d="M28 58C30 40 44 28 63 28C81 28 96 40 100 58" stroke="url(#storm)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M36 58H92" stroke="#fff7ed" stroke-opacity=".75" stroke-width="7" stroke-linecap="round"/>
+  <path d="M48 72L42 86" stroke="#93c5fd" stroke-width="6" stroke-linecap="round"/>
+  <path d="M66 70L60 92" stroke="#bfdbfe" stroke-width="6" stroke-linecap="round"/>
+  <path d="M84 72L78 86" stroke="#93c5fd" stroke-width="6" stroke-linecap="round"/>
+  <path d="M70 38C78 40 84 45 87 53" stroke="#fff7ed" stroke-opacity=".32" stroke-width="5" stroke-linecap="round"/>
+</svg>
