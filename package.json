@@ -5,7 +5,10 @@
     "dev": "concurrently -k -n backend,frontend -c yellow,cyan \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:backend": "cd backend && python -m uvicorn app.main:app --reload --reload-dir app",
     "dev:frontend": "npm --prefix frontend run dev",
-    "install:frontend": "npm --prefix frontend install"
+    "install:frontend": "npm --prefix frontend install",
+    "mobile:build": "npm --prefix frontend run build:mobile",
+    "mobile:sync": "npm --prefix frontend run cap:sync",
+    "mobile:open:android": "npm --prefix frontend run cap:open:android"
   },
   "devDependencies": {
     "concurrently": "^9.2.1"
